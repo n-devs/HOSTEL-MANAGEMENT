@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/hm-client/node_modules
+/hm-server/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/hm-client/build
+/hm-server/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/hm-client/npm-debug.log*
+/hm-client/yarn-debug.log*
+/hm-client/yarn-error.log*
+/hm-server/npm-debug.log*
+/hm-server/yarn-debug.log*
+/hm-server/yarn-error.log*
